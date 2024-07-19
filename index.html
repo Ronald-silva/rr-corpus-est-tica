@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RRCorpus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/canva 6.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  
+    <header>
+        <nav>
+            <div class="logo"><img src="img/canva 6.png" alt=""></div>
+            <ul class="nav-links">
+                <li><a class="header-li" href="#home">Início</a></li>
+                <li><a class="header-li" href="#about">Sobre</a></li>
+                <li><a class="header-li" href="#services">Serviços</a></li>
+                <li><a class="header-li" href="#contact">Contato</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Bem-vindo ao RRCorpus</h1>
+            <p>Seu bem-estar em primeiro lugar.</p>
+        </section>
+       
+        <section id="services">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li><a class="itens" href="depilacao.html">Depilação <img src="img/depilacao-cera-scaled.jpg" alt=""></a></li>
+                
+                <li><a class="itens" href="massoterapia.html">Massoterapia <img src="img/back-massage.jpg" alt=""></a></li>
+
+                <li><a class="itens" href="gessoterapia.html">Gesso Terapia <img src="img/gessoterapia.jpg" alt=""></a></li>
+
+                <li><a class="itens" href="bambuterapia.html">Bambu Terapia<img src="img/bambuterapia.jpg" alt=""></a></li>
+
+                <li ><a class="itens" href="ventosaterapia.html">Ventosa Terapia <img src="img/ventosaterapia.webp" alt=""></a></li>
+
+                <li><a class="itens" href="lp.html">Limpeza de Pele <img src="img/limpeza de pele.jpg" alt=""></a></li>
+
+                <li><a class="itens" href="haguihara.html">Método Haguihara <img src="img/haguihara.jpg" alt=""></a></li>
+            </ul>
+            
+
+        </section>
+        <section id="about">
+            <h2>Sobre Nós</h2>
+            <p>A RR Corpus é um espaço dedicado à beleza e ao bem-estar. Acreditamos que a beleza vem de dentro para fora e que cuidar de si mesmo é essencial para ter uma vida plena e feliz.</p>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <form id="appointment-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="service">Serviço:</label>
+                <select id="service" name="service" required>
+                    <option value="depilacao">Depilação</option>
+                    <option value="bambu-terapia">Bambu Terapia</option>
+                    <option value="massoterapia">Massoterapia</option>
+                    <option value="gesso-terapia">Gesso Terapia</option>
+                    <option value="ventosa-terapia">Ventosa Terapia</option>
+                  
+                    <option value="limpeza-de-pele">Limpeza de Pele</option>
+                    <option value="metodo-haguibara">Método Haguihara</option>
+                    
+                </select>
+                
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Horário:</label>
+                <input type="time" id="time" name="time" min="08:00" max="17:00" required>
+                
+                <button type="submit">Agendar horário</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 RRCorpus. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
