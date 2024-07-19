@@ -211,6 +211,15 @@ footer {
         max-width: 300px;
         height: 200px;
     }
+    header nav li {
+        padding-left: 1rem;
+        
+    }
+    .logo img {
+        max-width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+    }
    
 }
 
