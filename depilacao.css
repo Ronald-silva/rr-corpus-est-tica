@@ -34,7 +34,7 @@ header nav li {
     
 }
 
-header nav li .header-li {
+header nav li  {
     font-size: medium;
     
 }
@@ -45,48 +45,57 @@ header nav li .header-li {
     border-radius: 50%;
 }
 
-#home {
-    display: block;
-    text-align:center ;
-    border: 1px solid azure;
-    border-radius: 10px;
-    padding: 20px 0 20px 0;
-     
-}
-
-#about {
-    display: block;
-    text-align:center ;
-    border: 1px solid azure;
-    border-radius: 10px;
-    padding: 20px 20px 20px 20px;
-   
-}
-
-#services {
+.tdepilation {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align:center ;
     border: 1px solid azure;
     border-radius: 10px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom:5rem;
+    padding-top: 2rem;
+   
     
 }
 
-#services h2 {
-    font-size: 30px;
+.tdepilation .t-itens {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+
+} 
+
+.tdepilation .t-itens strong {
+    color:#e9917b;
+}
+#depilacao p {
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
-#services ul {
+#depilacao h1, h2 {
+    
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.information {
     text-align:center ;
     display: block;
     justify-content: center;
 
 }
 
-#services ul li .itens{
+.information .itens {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#depilacao ul li .itens{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -135,13 +144,23 @@ section {
     margin-bottom: 2em;
 }
 
-main #contact {
+main .itens {
     border: 1px solid azure;
     border-radius: 10px;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom:5rem;
     
+}
+
+
+.information .itens{
+   display: block;
+   border: 1px solid azure;
+   border-radius: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-bottom:5rem;
 }
 
 #contact h2 {
@@ -155,43 +174,17 @@ h1, h2 {
     
 }
 
-#contact form button {
-    margin-bottom: 3rem;
-    margin-top: 1rem;
-    border-radius: 5px;
-    font-size:large;
-    transition: 0.3s;
-}
 
-#contact form button:hover {
-    background-color: #09a134;
-}
 
-form {
-    display: flex;
-    flex-direction: column;
-    
-    
-}
 
-form label, form input, form select, form button {
-    margin-bottom: 1rem;
-}
 
-form input, form select {
-    padding: 0.5em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
 
-form button {
-    padding: 0.7em;
-    border: none;
-    background-color: rgb(49, 140, 49);
-    color: #000;
-    cursor: pointer;
-    
-}
+
+
+
+
+
+
 
 footer {
     background-color: #e9917b;
@@ -208,9 +201,8 @@ footer {
         flex-direction: row;
     }
     img {
-        max-width: 300px;
-        height: 200px;
+        max-width: 400px;
+        height: 300px;
     }
    
 }
-
