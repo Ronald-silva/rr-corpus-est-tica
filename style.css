@@ -51,6 +51,7 @@ header nav li .header-li {
     border: 1px solid azure;
     border-radius: 10px;
     padding: 20px 0 20px 0;
+    
      
 }
 
@@ -75,15 +76,18 @@ header nav li .header-li {
     
 }
 
-#services h2 {
-    font-size: 30px;
-}
-
 #services ul {
     text-align:center ;
     display: block;
     justify-content: center;
 
+}
+
+#services ul li {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
 }
 
 #services ul li .itens{
@@ -95,6 +99,10 @@ header nav li .header-li {
     text-decoration: none;
     color: #e9917b;
     font-size: 30px;
+    border: 1px solid azure;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     
    
     
@@ -111,6 +119,7 @@ nav, ul {
 
 nav, ul, li {
     display: flex;
+    
     list-style: none;
 }
 
@@ -144,14 +153,61 @@ main #contact {
     
 }
 
+.itens p {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border: 1px solid azure;
+    margin-left: 10.5rem;
+    margin-right: 10.5rem;
+    border-radius: 10px;
+   
+    
+
+}
+
+.itens h3 {
+    color: #e9917b;
+}
 #contact h2 {
     text-align: center;
+    padding-top: 2rem;
     
 }
 
+.itens-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid azure;
+    border-radius: 10px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.ditens .itens {
+    padding-bottom: 2rem;
+}
+
+.itens-ul .itens {
+    padding-bottom: 2rem;
+}
+
+.preparation {
+    border: 1px solid azure;
+    border-radius: 10px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+
+}
+
+.preparation .itens {
+    padding-bottom: 2rem;
+}
 h1, h2 {
     color: #e9917b;
     -webkit-text-stroke: 1px black;
+    text-align: center;
     
 }
 
@@ -219,6 +275,13 @@ footer {
         max-width: 5rem;
         height: 5rem;
         border-radius: 50%;
+    }
+    .itens p {
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+        
+        
+    
     }
    
 }
