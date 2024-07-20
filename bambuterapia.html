@@ -3,34 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bambu Terapia - RRCorpus</title>
+    <title>Bambuterapia - RRCorpus</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/canva 6.png" type="image/x-icon">
+    <script src="script.js" defer></script>
 </head>
 <body>
+  
     <header>
         <nav>
             <div class="logo"><img src="img/canva 6.png" alt=""></div>
             <ul class="nav-links">
-                <li><a href="index.html#home">Início</a></li>
-                <li><a href="index.html#about">Sobre</a></li>
-                <li><a href="index.html#services">Serviços</a></li>
-                <li><a href="index.html#contact">Contato</a></li>
+                <li><a class="header-li" href="index.html#home">Início</a></li>
+                <li><a class="header-li" href="index.html#about">Sobre</a></li>
+                <li><a class="header-li" href="index.html#services">Serviços</a></li>
+                <li><a class="header-li" href="index.html#contact">Contato</a></li>
+                
             </ul>
         </nav>
     </header>
     <main>
-        <section id="bambu-terapia">
+        <section id="home">
             <h1>Bambu Terapia</h1>
-            <p>A Bambu Terapia é uma técnica que utiliza hastes de bambu para realizar massagens terapêuticas. Ela promove relaxamento, alívio do estresse e melhora a circulação sanguínea. Esta técnica é ideal para quem busca um tratamento natural e eficaz.</p>
-            <img src="bambu-terapia.jpg" alt="Bambu Terapia">
-            <h2>Benefícios da Bambu Terapia</h2>
-            <ul>
-                <li>Relaxamento muscular</li>
-                <li>Alívio do estresse</li>
-                <li>Melhora da circulação sanguínea</li>
-                <li>Redução de celulite</li>
-                <li>Promoção do bem-estar geral</li>
-            </ul>
+            <p>A Bambu Terapia é uma técnica que utiliza hastes de bambu para realizar massagens terapêuticas. Ela promove relaxamento, alívio do estresse e melhora a circulação sanguínea. Esta técnica é ideal para quem busca um tratamento natural e eficaz</p>
+        </section>
+        <h2>Tipos de Bambu terapia que Oferecemos</h2>
+        <section id="services">
+            
+            <div class="ditens">
+                <div class="itens">
+                    <h3>Bambu terapia Relaxante</h3> 
+                    <img src="img/bambu relaxante.webp" alt="">
+                    <p>Utiliza movimentos suaves e longos para promover relaxamento muscular, aliviar o estresse e a ansiedade.</p>
+                </div>
+                
+                
+                <div class="itens">
+                    <h3>Bambu terapia Modeladora</h3> 
+                    <img src="img/bambu modeladora.jpg" alt="">
+                    <p>Utiliza movimentos mais firmes e precisos para estimular a circulação sanguínea e linfática, reduzir medidas, eliminar celulite e tonificar os músculos.</p>
+                </div>
+
+                <div class="itens">
+                    <h3>Bambu terapia Desportiva</h3>
+                    <img src="img/bambu desportiva.jpg" alt="">
+                    <p>Utiliza técnicas específicas para ajudar na recuperação muscular após exercícios físicos, prevenir lesões e melhorar a performance esportiva.</p>
+                </div>
+
+                <div class="itens">
+                    <h3>Bambuterapia Facial</h3>
+                    <img src="img/bambu facial.jpg" alt="">
+                    <p>Utiliza varas de bambu menores e mais finas para realizar massagens na face, promovendo a hidratação da pele, reduzindo rugas e linhas de expressão e tonificando os músculos faciais.</p>
+                </div>
+
+            </div>
+           
+        </section>
+        <h2>Benefícios da Bambu terapia:</h2>
+        <div class="itens-ul">
+            <div class="itens">
+                <h3>Relaxamento muscular</h3> 
+                <p>os movimentos da massagem com bambu ajudam a relaxar os músculos tensos, aliviar o estresse e a ansiedade.</p>
+            </div>
+            <div class="itens">
+                <h3>Melhora da circulação sanguínea e linfática</h3> 
+                <p>A Bambu terapia estimula a circulação sanguínea e linfática, o que ajuda a eliminar toxinas do corpo, reduzir o inchaço e melhorar a oxigenação dos tecidos.</p>
+            </div>
+            <div class="itens">
+                <h3>Redução da celulite</h3> 
+                <p>A massagem com bambu ajuda a reduzir a aparência da celulite, quebrando as células de gordura e promovendo a drenagem linfática.</p>
+            </div>
+            <div class="itens">
+                <h3>Tonificação muscular</h3> 
+                <p>A Bambu terapia ajuda a tonificar os músculos, melhorar a definição corporal e aumentar a força muscular.</p>
+            </div>
+        </div>
+
+        <div class="preparation">
+           
+            <div class="itens">
+                <h2>Agende sua sessão</h2>
+                <p>Experimente nossos serviços e sinta a diferença. Nossa equipe está preparada para oferecer o melhor atendimento e garantir sua satisfação. Agende sua sessão agora mesmo e desfrute de uma pele impecável.</p>
+
+            </div>
+        
+        </div>
+        
+        <section id="contact">
+            <h2>Contato</h2>
+            <form id="appointment-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="service">Serviço:</label>
+                <select id="service" name="service" required>
+                    <option value="depilacao">Depilação</option>
+                    <option value="bambu-terapia">Bambu Terapia</option>
+                    <option value="massoterapia">Massoterapia</option>
+                    <option value="gesso-terapia">Gesso Terapia</option>
+                    <option value="ventosa-terapia">Ventosa Terapia</option>
+                  
+                    <option value="limpeza-de-pele">Limpeza de Pele</option>
+                    <option value="metodo-haguibara">Método Haguihara</option>
+                    
+                </select>
+                
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Horário:</label>
+                <input type="time" id="time" name="time" min="08:00" max="17:00" required>
+                
+                <button type="submit">Agendar horário</button>
+            </form>
         </section>
     </main>
     <footer>
