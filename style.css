@@ -51,6 +51,8 @@ header nav li .header-li {
     border: 1px solid azure;
     border-radius: 10px;
     padding: 20px 0 20px 0;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
     
      
 }
@@ -73,6 +75,7 @@ header nav li .header-li {
     border-radius: 10px;
     padding-bottom: 20px;
     padding-top: 20px;
+    margin-bottom: 3rem;
     
 }
 
@@ -169,6 +172,7 @@ main #contact {
     text-align: center;
     padding-top: 2rem;
     
+    
 }
 
 .itens-ul {
@@ -180,6 +184,8 @@ main #contact {
     border-radius: 10px;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-bottom: 3rem;
+    
 }
 .ditens .itens {
     padding-bottom: 2rem;
@@ -195,6 +201,7 @@ main #contact {
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
+    margin-bottom: 3rem;
 
 }
 
@@ -206,6 +213,7 @@ h1, h2 {
     color: #e9917b;
     -webkit-text-stroke: 1px black;
     text-align: center;
+    padding-bottom: 2rem;
     
 }
 
